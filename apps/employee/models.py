@@ -7,7 +7,7 @@ from ..device.models import Device
 class Employee(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     company = models.ForeignKey(Company, on_delete=models.CASCADE)
-    devices = models.ManyToManyField(Device, blank=True)
+    devices = models.ManyToManyField(Device, blank=True, through='DeviceAssignment')
 
     class Meta:
         ordering = ['user']
