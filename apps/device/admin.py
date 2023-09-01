@@ -3,3 +3,4 @@ from .models import Device, DeviceAssignment
 # Register your models here.
 admin.site.register(Device)
 admin.site.register(DeviceAssignment)
+# admin.site.register(DeviceLog)
