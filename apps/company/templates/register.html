@@ -5,14 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <title>HomePage</title>
+  <title>Register</title>
 
 </head>
 
 <body>
-
-<a href='{% url 'register' %}'>Register Your company</a>
-
+    <form action='.' method='post'>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button> Register </button>
+    </form>
 </body>
 
 </html>
