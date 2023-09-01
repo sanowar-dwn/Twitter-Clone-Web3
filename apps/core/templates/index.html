@@ -12,8 +12,12 @@
 <body>
 {% if user.is_authenticated %}
     Hello {{ request.user }}
+    <br>
+    <a href='{% url 'company_dashboard' %}'> Dashboard </a>
     {% else %}
         <a href='{% url 'register' %}'>Register Your company</a>
+        <br>
+        <a href='{% url 'register' %}'>Login </a>
 {% endif %}
 </body>
 

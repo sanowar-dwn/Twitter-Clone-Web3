@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>HomePage</title>
+
+</head>
+
+<body>
+    Hello {{ company.name }}
+    <br>
+    <br>
+    <a href='{% url 'logout' %}'> Logout </a>
+    <h1> Your Devices </h1>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Condition</th>
+          <th>Checked_out</th>
+        </tr>
+        {% for item in devices %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.description }}</td>
+                <td>{{ item.condition }}</td>
+                <td>{{ item.checked_out }}</td>
+            </tr>
+        {% endfor %}
+      </table>
+</body>
+
+</html>
