@@ -27,11 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# All login-logout redirection handling
-LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = 'company_dashboard'
-LOGOUT_REDIRECT_URL = 'index'
-
 # Application definition
 
 INSTALLED_APPS = [
