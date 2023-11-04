@@ -49,11 +49,3 @@ You can interact with this smart contract through Ethereum-compatible wallets or
 ## License
 
 This smart contract is provided under the MIT License.
-
-For more information, please see the [License](LICENSE.md) file.
-
-## Author
-
-- [Your Name]
-
-Feel free to make any necessary adjustments and include your author information as appropriate. This documentation provides a clear and informative overview of your contract's features and usage, making it easier for others to understand and use your contract when it's hosted on your GitHub repository.
