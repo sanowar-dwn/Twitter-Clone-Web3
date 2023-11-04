@@ -1,6 +1,6 @@
 # TwitterClone Smart Contract
 
-The TwitterClone smart contract is a simple Ethereum-based contract that allows users to create tweets, like tweets, and unlike tweets. It is designed to replicate some of the basic features of a Twitter-like social platform.
+The TwitterClone smart contract is a simple Ethereum-based contract that allows users to create tweets, like tweets, and unlike tweets. It is designed to replicate some of the basic features of a Twitter-like social platform. Currently working on the UI and also implementing User Profile, and other cool features.
 
 ## Features
 
